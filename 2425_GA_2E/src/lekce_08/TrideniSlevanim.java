@@ -40,6 +40,10 @@ public class TrideniSlevanim {
             i++;
             k++;
         }
+
+        for (;i < leva.length; i++) vystup[k++] = leva[i];
+        for (;j < prava.length; j++) vystup[k++] = leva[j];
+
         return vystup;
     }
 }
